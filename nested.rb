@@ -85,7 +85,7 @@ def adding_matz
   a = {:yukihiro_matsumoto => {}}
   c = a.merge(programmer_hash)
   c[:yukihiro_matsumoto] = {:known_for => "Ruby",:languages => ["LISP", "C"]}
-  b = programmer_hash.fetch(:yukihiro_matsumoto)
+  b = c.fetch(:yukihiro_matsumoto)
   return b
 end
 
