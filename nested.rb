@@ -82,10 +82,10 @@ def adding_matz
         }
      }
 
-  programmer_hash.push({:yukihiro_matsumoto => {
+  programmer_hash.push << {:yukihiro_matsumoto => {
           :known_for => "Ruby",
           :languages => ["LISP", "C"]
-       }  })
+       }}
   return programmer_hash[:yukihiro_matsumoto]     
 end
 
