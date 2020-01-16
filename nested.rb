@@ -85,7 +85,7 @@ def adding_matz
   a = {:yukihiro_matsumoto => {}}
   programmer_hash.merge(a)
   programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby",:languages => ["LISP", "C"]}
-  return programmer_hash[:yukihiro_matsumoto]     
+  b = programmer_hash[:yukihiro_matsumoto].each_key     
 end
 
 def changing_alan
